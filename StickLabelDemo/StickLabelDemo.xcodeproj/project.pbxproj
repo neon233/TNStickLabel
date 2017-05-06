@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33691AB31E7A42E20016B253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691AB21E7A42E20016B253 /* main.m */; };
+		33691AB61E7A42E20016B253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691AB51E7A42E20016B253 /* AppDelegate.m */; };
+		33691AB91E7A42E20016B253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691AB81E7A42E20016B253 /* ViewController.m */; };
+		33691ABC1E7A42E20016B253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33691ABA1E7A42E20016B253 /* Main.storyboard */; };
+		33691ABE1E7A42E20016B253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33691ABD1E7A42E20016B253 /* Assets.xcassets */; };
+		33691AC11E7A42E20016B253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33691ABF1E7A42E20016B253 /* LaunchScreen.storyboard */; };
+		33691ACC1E7A42E20016B253 /* StickLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691ACB1E7A42E20016B253 /* StickLabelDemoTests.m */; };
+		33691ADA1E7A430B0016B253 /* StickLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691AD91E7A430B0016B253 /* StickLabelController.m */; };
+		33691ADD1E7A434D0016B253 /* StickLabelDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691ADC1E7A434D0016B253 /* StickLabelDataSource.m */; };
+		33691AE01E7A44960016B253 /* StickLabelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 33691ADF1E7A44960016B253 /* StickLabelLayout.m */; };
+		337144501E7A7F5900337512 /* StickLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3371444F1E7A7F5900337512 /* StickLabelCell.m */; };
+		33BA1FEB1E814AE4008C75FF /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FC91E814AE4008C75FF /* IQNSArray+Sort.m */; };
+		33BA1FEC1E814AE4008C75FF /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FCB1E814AE4008C75FF /* IQUIScrollView+Additions.m */; };
+		33BA1FED1E814AE4008C75FF /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FCD1E814AE4008C75FF /* IQUITextFieldView+Additions.m */; };
+		33BA1FEE1E814AE4008C75FF /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FCF1E814AE4008C75FF /* IQUIView+Hierarchy.m */; };
+		33BA1FEF1E814AE4008C75FF /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FD11E814AE4008C75FF /* IQUIViewController+Additions.m */; };
+		33BA1FF01E814AE4008C75FF /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FD31E814AE4008C75FF /* IQUIWindow+Hierarchy.m */; };
+		33BA1FF11E814AE4008C75FF /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FD81E814AE4008C75FF /* IQKeyboardManager.m */; };
+		33BA1FF21E814AE4008C75FF /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FDA1E814AE4008C75FF /* IQKeyboardReturnKeyHandler.m */; };
+		33BA1FF31E814AE4008C75FF /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FDD1E814AE4008C75FF /* IQTextView.m */; };
+		33BA1FF41E814AE4008C75FF /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FE01E814AE4008C75FF /* IQBarButtonItem.m */; };
+		33BA1FF51E814AE4008C75FF /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FE21E814AE4008C75FF /* IQPreviousNextView.m */; };
+		33BA1FF61E814AE4008C75FF /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FE41E814AE4008C75FF /* IQTitleBarButtonItem.m */; };
+		33BA1FF71E814AE4008C75FF /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FE61E814AE4008C75FF /* IQToolbar.m */; };
+		33BA1FF81E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FE81E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.m */; };
+		33BA1FF91E814AE4008C75FF /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33BA1FEA1E814AE4008C75FF /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33691AC81E7A42E20016B253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33691AA61E7A42E20016B253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33691AAD1E7A42E20016B253;
+			remoteInfo = StickLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33691AAE1E7A42E20016B253 /* StickLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33691AB21E7A42E20016B253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33691AB41E7A42E20016B253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33691AB51E7A42E20016B253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33691AB71E7A42E20016B253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33691AB81E7A42E20016B253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33691ABB1E7A42E20016B253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33691ABD1E7A42E20016B253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33691AC01E7A42E20016B253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33691AC21E7A42E20016B253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33691AC71E7A42E20016B253 /* StickLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33691ACB1E7A42E20016B253 /* StickLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickLabelDemoTests.m; sourceTree = "<group>"; };
+		33691ACD1E7A42E20016B253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33691AD81E7A430B0016B253 /* StickLabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickLabelController.h; sourceTree = "<group>"; };
+		33691AD91E7A430B0016B253 /* StickLabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickLabelController.m; sourceTree = "<group>"; };
+		33691ADB1E7A434D0016B253 /* StickLabelDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickLabelDataSource.h; sourceTree = "<group>"; };
+		33691ADC1E7A434D0016B253 /* StickLabelDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickLabelDataSource.m; sourceTree = "<group>"; };
+		33691ADE1E7A44960016B253 /* StickLabelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickLabelLayout.h; sourceTree = "<group>"; };
+		33691ADF1E7A44960016B253 /* StickLabelLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickLabelLayout.m; sourceTree = "<group>"; };
+		3371444E1E7A7F5900337512 /* StickLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickLabelCell.h; sourceTree = "<group>"; };
+		3371444F1E7A7F5900337512 /* StickLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickLabelCell.m; sourceTree = "<group>"; };
+		33BA1FC81E814AE4008C75FF /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		33BA1FC91E814AE4008C75FF /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		33BA1FCA1E814AE4008C75FF /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		33BA1FCB1E814AE4008C75FF /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		33BA1FCC1E814AE4008C75FF /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		33BA1FCD1E814AE4008C75FF /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		33BA1FCE1E814AE4008C75FF /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		33BA1FCF1E814AE4008C75FF /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		33BA1FD01E814AE4008C75FF /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		33BA1FD11E814AE4008C75FF /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		33BA1FD21E814AE4008C75FF /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		33BA1FD31E814AE4008C75FF /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		33BA1FD51E814AE4008C75FF /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		33BA1FD61E814AE4008C75FF /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		33BA1FD71E814AE4008C75FF /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		33BA1FD81E814AE4008C75FF /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		33BA1FD91E814AE4008C75FF /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		33BA1FDA1E814AE4008C75FF /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		33BA1FDC1E814AE4008C75FF /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		33BA1FDD1E814AE4008C75FF /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		33BA1FDF1E814AE4008C75FF /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		33BA1FE01E814AE4008C75FF /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		33BA1FE11E814AE4008C75FF /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		33BA1FE21E814AE4008C75FF /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		33BA1FE31E814AE4008C75FF /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		33BA1FE41E814AE4008C75FF /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		33BA1FE51E814AE4008C75FF /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		33BA1FE61E814AE4008C75FF /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		33BA1FE71E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		33BA1FE81E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		33BA1FEA1E814AE4008C75FF /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33691AAB1E7A42E20016B253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33691AC41E7A42E20016B253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33691AA51E7A42E20016B253 = {
+			isa = PBXGroup;
+			children = (
+				33691AB01E7A42E20016B253 /* StickLabelDemo */,
+				33691ACA1E7A42E20016B253 /* StickLabelDemoTests */,
+				33691AAF1E7A42E20016B253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33691AAF1E7A42E20016B253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33691AAE1E7A42E20016B253 /* StickLabelDemo.app */,
+				33691AC71E7A42E20016B253 /* StickLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33691AB01E7A42E20016B253 /* StickLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FC61E814AE4008C75FF /* IQKeyboardManager */,
+				33691AD71E7A42F20016B253 /* stick */,
+				33691AB41E7A42E20016B253 /* AppDelegate.h */,
+				33691AB51E7A42E20016B253 /* AppDelegate.m */,
+				33691AB71E7A42E20016B253 /* ViewController.h */,
+				33691AB81E7A42E20016B253 /* ViewController.m */,
+				33691ABA1E7A42E20016B253 /* Main.storyboard */,
+				33691ABD1E7A42E20016B253 /* Assets.xcassets */,
+				33691ABF1E7A42E20016B253 /* LaunchScreen.storyboard */,
+				33691AC21E7A42E20016B253 /* Info.plist */,
+				33691AB11E7A42E20016B253 /* Supporting Files */,
+			);
+			path = StickLabelDemo;
+			sourceTree = "<group>";
+		};
+		33691AB11E7A42E20016B253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33691AB21E7A42E20016B253 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33691ACA1E7A42E20016B253 /* StickLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33691ACB1E7A42E20016B253 /* StickLabelDemoTests.m */,
+				33691ACD1E7A42E20016B253 /* Info.plist */,
+			);
+			path = StickLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		33691AD71E7A42F20016B253 /* stick */ = {
+			isa = PBXGroup;
+			children = (
+				33691AD81E7A430B0016B253 /* StickLabelController.h */,
+				33691AD91E7A430B0016B253 /* StickLabelController.m */,
+				33691ADB1E7A434D0016B253 /* StickLabelDataSource.h */,
+				33691ADC1E7A434D0016B253 /* StickLabelDataSource.m */,
+				33691ADE1E7A44960016B253 /* StickLabelLayout.h */,
+				33691ADF1E7A44960016B253 /* StickLabelLayout.m */,
+				3371444E1E7A7F5900337512 /* StickLabelCell.h */,
+				3371444F1E7A7F5900337512 /* StickLabelCell.m */,
+			);
+			name = stick;
+			sourceTree = "<group>";
+		};
+		33BA1FC61E814AE4008C75FF /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FC71E814AE4008C75FF /* Categories */,
+				33BA1FD41E814AE4008C75FF /* Constants */,
+				33BA1FD71E814AE4008C75FF /* IQKeyboardManager.h */,
+				33BA1FD81E814AE4008C75FF /* IQKeyboardManager.m */,
+				33BA1FD91E814AE4008C75FF /* IQKeyboardReturnKeyHandler.h */,
+				33BA1FDA1E814AE4008C75FF /* IQKeyboardReturnKeyHandler.m */,
+				33BA1FDB1E814AE4008C75FF /* IQTextView */,
+				33BA1FDE1E814AE4008C75FF /* IQToolbar */,
+				33BA1FE91E814AE4008C75FF /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		33BA1FC71E814AE4008C75FF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FC81E814AE4008C75FF /* IQNSArray+Sort.h */,
+				33BA1FC91E814AE4008C75FF /* IQNSArray+Sort.m */,
+				33BA1FCA1E814AE4008C75FF /* IQUIScrollView+Additions.h */,
+				33BA1FCB1E814AE4008C75FF /* IQUIScrollView+Additions.m */,
+				33BA1FCC1E814AE4008C75FF /* IQUITextFieldView+Additions.h */,
+				33BA1FCD1E814AE4008C75FF /* IQUITextFieldView+Additions.m */,
+				33BA1FCE1E814AE4008C75FF /* IQUIView+Hierarchy.h */,
+				33BA1FCF1E814AE4008C75FF /* IQUIView+Hierarchy.m */,
+				33BA1FD01E814AE4008C75FF /* IQUIViewController+Additions.h */,
+				33BA1FD11E814AE4008C75FF /* IQUIViewController+Additions.m */,
+				33BA1FD21E814AE4008C75FF /* IQUIWindow+Hierarchy.h */,
+				33BA1FD31E814AE4008C75FF /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		33BA1FD41E814AE4008C75FF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FD51E814AE4008C75FF /* IQKeyboardManagerConstants.h */,
+				33BA1FD61E814AE4008C75FF /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		33BA1FDB1E814AE4008C75FF /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FDC1E814AE4008C75FF /* IQTextView.h */,
+				33BA1FDD1E814AE4008C75FF /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		33BA1FDE1E814AE4008C75FF /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FDF1E814AE4008C75FF /* IQBarButtonItem.h */,
+				33BA1FE01E814AE4008C75FF /* IQBarButtonItem.m */,
+				33BA1FE11E814AE4008C75FF /* IQPreviousNextView.h */,
+				33BA1FE21E814AE4008C75FF /* IQPreviousNextView.m */,
+				33BA1FE31E814AE4008C75FF /* IQTitleBarButtonItem.h */,
+				33BA1FE41E814AE4008C75FF /* IQTitleBarButtonItem.m */,
+				33BA1FE51E814AE4008C75FF /* IQToolbar.h */,
+				33BA1FE61E814AE4008C75FF /* IQToolbar.m */,
+				33BA1FE71E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.h */,
+				33BA1FE81E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		33BA1FE91E814AE4008C75FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FEA1E814AE4008C75FF /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33691AAD1E7A42E20016B253 /* StickLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33691AD01E7A42E20016B253 /* Build configuration list for PBXNativeTarget "StickLabelDemo" */;
+			buildPhases = (
+				33691AAA1E7A42E20016B253 /* Sources */,
+				33691AAB1E7A42E20016B253 /* Frameworks */,
+				33691AAC1E7A42E20016B253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickLabelDemo;
+			productName = StickLabelDemo;
+			productReference = 33691AAE1E7A42E20016B253 /* StickLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33691AC61E7A42E20016B253 /* StickLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33691AD31E7A42E20016B253 /* Build configuration list for PBXNativeTarget "StickLabelDemoTests" */;
+			buildPhases = (
+				33691AC31E7A42E20016B253 /* Sources */,
+				33691AC41E7A42E20016B253 /* Frameworks */,
+				33691AC51E7A42E20016B253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33691AC91E7A42E20016B253 /* PBXTargetDependency */,
+			);
+			name = StickLabelDemoTests;
+			productName = StickLabelDemoTests;
+			productReference = 33691AC71E7A42E20016B253 /* StickLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33691AA61E7A42E20016B253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = neon;
+				TargetAttributes = {
+					33691AAD1E7A42E20016B253 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					33691AC61E7A42E20016B253 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33691AAD1E7A42E20016B253;
+					};
+				};
+			};
+			buildConfigurationList = 33691AA91E7A42E20016B253 /* Build configuration list for PBXProject "StickLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33691AA51E7A42E20016B253;
+			productRefGroup = 33691AAF1E7A42E20016B253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33691AAD1E7A42E20016B253 /* StickLabelDemo */,
+				33691AC61E7A42E20016B253 /* StickLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33691AAC1E7A42E20016B253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33691AC11E7A42E20016B253 /* LaunchScreen.storyboard in Resources */,
+				33691ABE1E7A42E20016B253 /* Assets.xcassets in Resources */,
+				33BA1FF91E814AE4008C75FF /* IQKeyboardManager.bundle in Resources */,
+				33691ABC1E7A42E20016B253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33691AC51E7A42E20016B253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33691AAA1E7A42E20016B253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA1FEB1E814AE4008C75FF /* IQNSArray+Sort.m in Sources */,
+				33BA1FF41E814AE4008C75FF /* IQBarButtonItem.m in Sources */,
+				33BA1FF61E814AE4008C75FF /* IQTitleBarButtonItem.m in Sources */,
+				33BA1FF31E814AE4008C75FF /* IQTextView.m in Sources */,
+				33BA1FEC1E814AE4008C75FF /* IQUIScrollView+Additions.m in Sources */,
+				33BA1FF01E814AE4008C75FF /* IQUIWindow+Hierarchy.m in Sources */,
+				33691ADD1E7A434D0016B253 /* StickLabelDataSource.m in Sources */,
+				33BA1FEE1E814AE4008C75FF /* IQUIView+Hierarchy.m in Sources */,
+				337144501E7A7F5900337512 /* StickLabelCell.m in Sources */,
+				33BA1FF51E814AE4008C75FF /* IQPreviousNextView.m in Sources */,
+				33BA1FF81E814AE4008C75FF /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				33BA1FED1E814AE4008C75FF /* IQUITextFieldView+Additions.m in Sources */,
+				33691AB91E7A42E20016B253 /* ViewController.m in Sources */,
+				33BA1FF11E814AE4008C75FF /* IQKeyboardManager.m in Sources */,
+				33691AB61E7A42E20016B253 /* AppDelegate.m in Sources */,
+				33BA1FF21E814AE4008C75FF /* IQKeyboardReturnKeyHandler.m in Sources */,
+				33BA1FF71E814AE4008C75FF /* IQToolbar.m in Sources */,
+				33691AE01E7A44960016B253 /* StickLabelLayout.m in Sources */,
+				33691AB31E7A42E20016B253 /* main.m in Sources */,
+				33BA1FEF1E814AE4008C75FF /* IQUIViewController+Additions.m in Sources */,
+				33691ADA1E7A430B0016B253 /* StickLabelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33691AC31E7A42E20016B253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33691ACC1E7A42E20016B253 /* StickLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33691AC91E7A42E20016B253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33691AAD1E7A42E20016B253 /* StickLabelDemo */;
+			targetProxy = 33691AC81E7A42E20016B253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33691ABA1E7A42E20016B253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33691ABB1E7A42E20016B253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33691ABF1E7A42E20016B253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33691AC01E7A42E20016B253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33691ACE1E7A42E20016B253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33691ACF1E7A42E20016B253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33691AD11E7A42E20016B253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StickLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.StickLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33691AD21E7A42E20016B253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StickLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.StickLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33691AD41E7A42E20016B253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StickLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.StickLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickLabelDemo.app/StickLabelDemo";
+			};
+			name = Debug;
+		};
+		33691AD51E7A42E20016B253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StickLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.StickLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickLabelDemo.app/StickLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33691AA91E7A42E20016B253 /* Build configuration list for PBXProject "StickLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33691ACE1E7A42E20016B253 /* Debug */,
+				33691ACF1E7A42E20016B253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33691AD01E7A42E20016B253 /* Build configuration list for PBXNativeTarget "StickLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33691AD11E7A42E20016B253 /* Debug */,
+				33691AD21E7A42E20016B253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33691AD31E7A42E20016B253 /* Build configuration list for PBXNativeTarget "StickLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33691AD41E7A42E20016B253 /* Debug */,
+				33691AD51E7A42E20016B253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33691AA61E7A42E20016B253 /* Project object */;
+}
